@@ -102,7 +102,7 @@ function About() {
             />
           </div>
           <div className="my-8">
-            <Button title={"Contact"} link={"#"} />
+            <Button title={"Contact"} link={"#contact"} />
           </div>
         </div>
         <div className="flex flex-col md:items-start md:w-6/12 w-full items-center  mb-10 ">

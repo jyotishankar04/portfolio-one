@@ -9,7 +9,10 @@ function Navbar() {
   return (
     <div className="w-full bg-white  gap-10 items-center  sticky top-0 z-10 shadow-md">
       <div className="flex justify-between">
-        <Link to={"/"} className="flex justify-center items-center md:px-10 px-3 py-3">
+        <Link
+          to={"/"}
+          className="flex justify-center items-center md:px-10 px-3 py-3"
+        >
           <div className="md:w-16 md:h-16 w-10 h-10 rounded-full overflow-hidden">
             <img
               className="w-full h-full"
@@ -36,7 +39,7 @@ function Navbar() {
             <a href="#projects" className="hover:text-purple-600">
               Projects
             </a>
-            <a href="#" className="hover:text-purple-600">
+            <a href="#contact" className="hover:text-purple-600">
               Contact
             </a>
           </div>
@@ -55,13 +58,25 @@ function Navbar() {
           >
             Home
           </a>
-          <a href="#about" onClick={toggleStatus} className="hover:text-purple-600">
+          <a
+            href="#about"
+            onClick={toggleStatus}
+            className="hover:text-purple-600"
+          >
             About
           </a>
-          <a href="#projects" onClick={toggleStatus} className="hover:text-purple-600">
+          <a
+            href="#projects"
+            onClick={toggleStatus}
+            className="hover:text-purple-600"
+          >
             Projects
           </a>
-          <a href="#" onClick={toggleStatus} className="hover:text-purple-600">
+          <a
+            href="#contact"
+            onClick={toggleStatus}
+            className="hover:text-purple-600"
+          >
             Contact
           </a>
         </div>
