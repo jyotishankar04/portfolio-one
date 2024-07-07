@@ -7,7 +7,7 @@ import Button from "./Button";
 import Icons from "./Icons";
 export default function Hero() {
   return (
-    <div className=" w-full h-full ">
+    <div className=" w-full h-full  " id="home">
       <div className="w-full h-full flex items-center flex-col justify-center  uppercase font-semibold bg-[url('https://i.ibb.co/TW9hqY7/benner-1.webp')] relative bg-cover gap-20 bg-center  top-0 ">
         <h1 className="md:text-7xl text-center text-gray-800 text-3xl font-bold">
           Hey, i'm <br className="md:hidden" /> Jyotishankar Patra

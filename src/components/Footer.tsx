@@ -10,9 +10,8 @@ function Footer() {
         <a href="#">
           <h1 className="uppercase text-2xl font-bold">Jyotishankar Patra</h1>
         </a>
-        <p className="lg:w-[40%]  w-full md:text-start text-center text-lg font-semibold text-gray-400 ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          accusamus doloribus ea placeat, numquam ducimus adipisci et{" "}
+        <p className="lg:w-[40%]  w-full md:text-center text-center  text-lg font-semibold text-gray-400 ">
+          Delivering High-Performance Websites and Applications for Your Success
         </p>
       </div>
       <div className="flex flex-col gap-3 md:w-6/12 w-full items-center">

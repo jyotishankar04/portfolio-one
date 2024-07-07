@@ -30,7 +30,7 @@ function Navbar() {
           </div>
 
           <div className=" justify-evenly  w-full items-center    uppercase font-semibold  hidden md:flex ">
-            <a href="#" className=" hover:text-purple-600">
+            <a href="#home" className=" hover:text-purple-600">
               Home
             </a>
             <a href="#about" className="hover:text-purple-600">
@@ -52,7 +52,7 @@ function Navbar() {
           }  left-0 top-0 w-full h-[calc(100vh-5rem)]  bg-white  `}
         >
           <a
-            href="#"
+            href="#home"
             onClick={toggleStatus}
             className={`  hover:text-purple-600`}
           >
