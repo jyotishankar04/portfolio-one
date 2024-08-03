@@ -6,8 +6,8 @@ function Projects() {
     {
       title: "CodersBook",
       description: "A online library for coders",
-      github: "https://github.com/jyotishankar04/CodersBook",
-      live: "codersbook.devsuvam.xyz",
+      github: "https://github.com/jyotishankar04/elibs-client",
+      live: "https://codersbook.devsuvam.xyz",
       image: "https://i.ibb.co/LPDWQvm/pexels-photo-1290141.jpg",
     },
     {
