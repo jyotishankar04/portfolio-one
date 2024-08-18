@@ -95,7 +95,7 @@ function About() {
             />
             <Icons
               icon={GrInstagram}
-              link="https://instagram.com/suvam.io"
+              link="https://instagram.com/dev.suvam"
               bgColor="bg-white"
               color="text-gray-700"
               size="md:text-2xl"

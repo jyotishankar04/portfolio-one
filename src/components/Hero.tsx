@@ -47,7 +47,7 @@ export default function Hero() {
           />
           <Icons
             icon={GrInstagram}
-            link="https://instagram.com/suvam.io"
+            link="https://instagram.com/dev.suvam"
             bgColor="bg-purple-600"
             color="text-white"
             size="md:text-3xl"

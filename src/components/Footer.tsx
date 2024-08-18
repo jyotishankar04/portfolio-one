@@ -27,7 +27,7 @@ function Footer() {
           >
             <FaLinkedin />
           </a>
-          <a href="https://instagram.com/suvam.io" target="_blank">
+          <a href="https://instagram.com/dev.suvam" target="_blank">
             <GrInstagram />
           </a>
           <a href="mailto:patrajyotishankar@gmail.com" target="_blank">
