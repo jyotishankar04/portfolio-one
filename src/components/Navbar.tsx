@@ -30,16 +30,32 @@ function Navbar() {
           </div>
 
           <div className=" justify-evenly  w-full items-center    uppercase font-semibold  hidden md:flex ">
-            <a href="#home" className=" hover:text-purple-600">
+            <a href="/#home" className=" hover:text-purple-600">
               Home
             </a>
-            <a href="#about" className="hover:text-purple-600">
+            <a href="/#about" className="hover:text-purple-600">
               About
             </a>
-            <a href="#projects" className="hover:text-purple-600">
+            <a href="/#projects" className="hover:text-purple-600">
               Projects
             </a>
-            <a href="#contact" className="hover:text-purple-600">
+
+            <Link
+              to="/repos"
+              onClick={toggleStatus}
+              className={`  hover:text-purple-600`}
+            >
+              Repos
+            </Link>
+
+            <Link
+              to="/projects"
+              onClick={toggleStatus}
+              className={`  hover:text-purple-600`}
+            >
+              All projects
+            </Link>
+            <a href="/#contact" className="hover:text-purple-600">
               Contact
             </a>
           </div>
@@ -52,28 +68,43 @@ function Navbar() {
           }  left-0 top-0 w-full h-[calc(100vh-5rem)]  bg-white  `}
         >
           <a
-            href="#home"
+            href="/#home"
             onClick={toggleStatus}
             className={`  hover:text-purple-600`}
           >
             Home
           </a>
           <a
-            href="#about"
+            href="/#about"
             onClick={toggleStatus}
             className="hover:text-purple-600"
           >
             About
           </a>
           <a
-            href="#projects"
+            href="/#projects"
             onClick={toggleStatus}
             className="hover:text-purple-600"
           >
             Projects
           </a>
+          <Link
+            to="/repos"
+            onClick={toggleStatus}
+            className={`  hover:text-purple-600`}
+          >
+            Repos
+          </Link>
+
+          <Link
+            to="/projects"
+            onClick={toggleStatus}
+            className={`  hover:text-purple-600`}
+          >
+            All projects
+          </Link>
           <a
-            href="#contact"
+            href="/#contact"
             onClick={toggleStatus}
             className="hover:text-purple-600"
           >
