@@ -4,19 +4,28 @@ import { IoIosArrowDropright } from "react-icons/io";
 function Projects() {
   const projects = [
     {
+      title: "Expense Mate",
+      description: " A simple expense tracker app using nextjs and postgres",
+      github: "https://github.com/jyotishankar04/expensetracker",
+      live: "https://expensemate.devsuvam.xyz",
+      image:
+        "https://res.cloudinary.com/djby1yfko/image/upload/v1724754338/Portfolio/qfzlgq9kjgyoomchhr5e.jpg",
+    },
+    {
       title: "CodersBook",
       description: "A online library for coders",
       github: "https://github.com/jyotishankar04/elibs-client",
       live: "https://codersbook.devsuvam.xyz",
-      image: "https://i.ibb.co/LPDWQvm/pexels-photo-1290141.jpg",
+      image:
+        "https://res.cloudinary.com/djby1yfko/image/upload/v1724754303/Portfolio/s4rjpxelefkcbpvp33qm.jpg",
     },
     {
       title: "Bolgging Website",
       description: "A simple bloging website",
       github: "https://github.com/jyotishankar04/medium",
-      live: "https://bloogy-eight.vercel.app/",
+      live: "https://bloogy.devsuvam.xyz/",
       image:
-        "https://i.ibb.co/z5Q9THP/blog-concept-illustration-idea-posting-sharing-following-613284-2970.jpg",
+        "https://res.cloudinary.com/djby1yfko/image/upload/v1724754382/Portfolio/u40gsai5zo0o3mn18qu9.jpg",
     },
     {
       title: "Github profile viewer",
@@ -24,7 +33,8 @@ function Projects() {
         "A profile viewer project where you can view github profile by putting username",
       github: "https://github.com/jyotishankar04/GithubProfileViewer",
       live: "https://githubprofileviewerapp.netlify.app/",
-      image: "https://i.ibb.co/g9k2zvJ/cute-cat-studio-23-2150932339.jpg",
+      image:
+        "https://res.cloudinary.com/djby1yfko/image/upload/v1724754486/Portfolio/t23dljycwfiynadtt706.jpg",
     },
     {
       title: "Spotify clone",
@@ -32,17 +42,7 @@ function Projects() {
       github: "https://github.com/jyotishankar04/Spotify-Colne",
       live: "https://github.com/jyotishankar04/Spotify-Colne",
       image:
-        "https://i.ibb.co/kqjzPrd/headphones-african-american-woman-s-portrait-isolated-dark-studio-background-multicolored-neon-light.jpg",
-    },
-
-    {
-      title: "Currency Converter",
-      description:
-        "A currency converter that can be used to convert currency values  in different countries currency format",
-      github: "https://github.com/jyotishankar04/currencyConvertor",
-      live: "https://main--currency-convertor-bysuvam.netlify.app/",
-      image:
-        "https://i.ibb.co/kBZC51N/futuristic-digital-indian-currency-sign-golden-token-background-1017-42531.jpg",
+        "https://res.cloudinary.com/djby1yfko/image/upload/v1724754521/Portfolio/l1zeaa4bzxvv3kjphtzr.jpg",
     },
   ];
   return (
