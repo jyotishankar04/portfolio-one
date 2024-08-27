@@ -49,6 +49,7 @@ const ReposList = () => {
 
   useEffect(() => {
     getUserInfo();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -102,7 +103,7 @@ const ReposCard: React.FC<{ repo: props }> = memo(({ repo }) => {
       <h2 className="card-title">{repo.name}</h2>
       <p>{time}</p>
       <p>{repo.description}</p>
-      <div className="card-actions justify-between items-center">
+      <div className="flex md:flex-row gap-2   flex-col md:justify-between items-start my-2 md:items-center">
         <div className="flex gap-4 items-center">
           <img
             src={repo.owner.avatar_url}
@@ -111,7 +112,11 @@ const ReposCard: React.FC<{ repo: props }> = memo(({ repo }) => {
           />
           <p>{repo.owner.login}</p>
         </div>
-        <a href={repo.html_url} target="_blank" className="btn btn-primary">
+        <a
+          href={repo.html_url}
+          target="_blank"
+          className="btn w-full md:w-fit btn-primary"
+        >
           View Repo
         </a>
       </div>
