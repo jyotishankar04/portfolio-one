@@ -9,6 +9,16 @@ export const projects = [
       "https://res.cloudinary.com/djby1yfko/image/upload/v1724754338/Portfolio/qfzlgq9kjgyoomchhr5e.jpg",
   },
   {
+    id: "date-request",
+    title: "Date Request",
+    description:
+      "A request sending application using react , nodejs and express useing serverless architecture",
+    github: "https://github.com/jyotishankar04/date-request-client",
+    live: "https://daterequest.devsuvam.xyz",
+    image:
+      "https://res.cloudinary.com/djby1yfko/image/upload/v1725855904/sea-sunset-beach-couple_g6dmti.jpg",
+  },
+  {
     id: "codersbook",
     title: "CodersBook",
     description: "A online library for coders",

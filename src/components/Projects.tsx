@@ -24,9 +24,9 @@ function Projects() {
       </div>
       <div className="md:w-10/12 w-full p-5">
         <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-10">
-          {Projects.map((project, index) => (
-            <Project key={index} project={project} />
-          ))}
+          {Projects.map((project, index) => {
+            return index <= 4 && <Project key={index} project={project} />;
+          })}
           <div className="flex justify-center items-center">
             <Link
               to="/projects"
